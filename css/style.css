@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+body {
+  font-family: "Lora", serif;
+  color: #cae9ff;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://wallpaperaccess.com/full/1192165.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.glass-container {
+  display: block;
+  margin: 40px;
+  background: rgba(0, 0, 0, 0.56);
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.6px);
+  -webkit-backdrop-filter: blur(11.6px);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  max-width: 100%;
+  padding: 20px;
+  border-bottom: 1.5px solid white;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  text-align: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links a {
+  margin: 20px;
+  text-decoration: none;
+  color: #cae9ff;
+}
+
+.nav-links:hover {
+  border-bottom: #cae9ff;
+}
+
+section {
+  max-width: 100%;
+  padding: 20px;
+  border-bottom: 1.5px solid white;
+}
+
+.showcase {
+  margin-left: 140px;
+  width: 70%;
+  display: flex;
+}
+
+.title {
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 210px;
+  margin-top: 120px;
+}
+
+.button {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+  padding: 20px;
+  font-family: "Lora", serif;
+  border-style: solid;
+  background-color: transparent;
+  border-color: white;
+  border-width: 1.5px;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-delay: 0s;
+}
+
+.button:hover {
+  transform: translateY(-10px);
+}
+
+.image {
+  width: 50%;
+  height: auto;
+  display: flex;
+  margin-right: -180px;
+  border-radius: 20px;
+  margin-top: -120px;
+  transition-timing-function: ease-in;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-delay: 0s;
+}
+
+.image:hover {
+  transform: scale(0.9);
+}
+
+article {
+  margin-bottom: 20px;
+  border-bottom: 1.5px solid white;
+}
+
+article h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -30px;
+}
+
+article h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+.boxes {
+  display: flex;
+  margin: 70px;
+}
+
+.boxes h2 {
+  margin-bottom: 5px;
+}
+
+.pizza h2 {
+  text-align: center;
+}
+
+.pizza {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.pizza:not(:hover) {
+  background-image: url(https://th.bing.com/th/id/R.eb5336216237a5db9860f81bbe50eb6b?rik=IVgIGQPsLXkYEw&riu=http%3a%2f%2fwww.scattidigusto.it%2fwp-content%2fuploads%2f2013%2f12%2fpizza-margherita-960x639.jpg&ehk=gXJhJ9WyCDeI%2fkcyGzjgeDZqAVc9THfSMqTey36rMj4%3d&risl=&pid=ImgRaw&r=0);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.Salame {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.Salame:not(:hover) {
+  background-image: url(https://cdn.tasteatlas.com/Images/Ingredients/8c4e8ea979be4d82a6f7dd26065ed48b.jpg);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.pasta {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.pasta:not(:hover) {
+  background-image: url(https://th.bing.com/th/id/R.607fc8b995f6355fb29c63e69f734e44?rik=Cu%2bcbgVPY86htA&pid=ImgRaw&r=0);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.lasagna {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.lasagna:not(:hover) {
+  background-image: url(https://th.bing.com/th/id/R.873b80f35ac2d607e7e7d067f439ed51?rik=ZqVA6kx3zx2%2fsQ&pid=ImgRaw&r=0);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.risotto {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.risotto:not(:hover) {
+  background-image: url(https://www.misya.info/wp-content/uploads/2016/01/Risotto-allo-zafferano.jpg);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.tiramisu {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.tiramisu:not(:hover) {
+  background-image: url(https://www.alsothecrumbsplease.com/wp-content/uploads/2019/05/Authentic-Tiramisu-Recipe-18.jpg);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.mid-italy {
+  margin-top: -10px;
+}
+
+section h1 {
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+section p {
+  margin-top: 50px;
+}
+
+.mid-italy {
+  margin-bottom: 40px;
+}
+
+.carbo {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.carbo:not(:hover) {
+  background-image: url(https://www.ilgiornalebg.it/wp-content/uploads/2020/12/carbonara.jpg);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.bistecca {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.bistecca:not(:hover) {
+  background-image: url(https://www.giallozafferano.it/images/257-25714/Bistecca-alla-fiorentina_650x433_wm.jpg);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.tagliatelle {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.tagliatelle:not(:hover) {
+  background-image: url(https://www.ricettaidea.it/articoli/ricette-tradizionali/primi/original_tagliatelle-al-tartufo.jpg);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.pizza {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.pizza:not(:hover) {
+  background-image: url(https://th.bing.com/th/id/R.32eb1934767bed0651f4db08ed4663d4?rik=XuaLWJYEoHvjow&riu=http%3a%2f%2fwww.agrodolce.it%2fwp-content%2fuploads%2f2016%2f01%2fpizza-napoletana-min.jpg&ehk=4GK2lO9Hc2jAJIfY9ycS%2fOPdUr7I3uPkbDpx44SZZLk%3d&risl=&pid=ImgRaw&r=0);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.pesce {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.pesce:not(:hover) {
+  background-image: url(https://th.bing.com/th/id/R.576581b929f6ca78629d06bf3481af0d?rik=ATMIhMt%2bEhsZzA&pid=ImgRaw&r=0);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.arancini {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 1.2s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.arancini:not(:hover) {
+  background-image: url(https://blog.giallozafferano.it/letortedigessica/wp-content/uploads/2020/11/arancini-siciliani-ricetta-originale-passo-passo.jpg);
+  color: transparent;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+.rests h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.rests-1 {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  border: 1.5px solid white;
+  margin: 10px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 40px;
+  transition-timing-function: ease;
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-delay: 0s;
+}
+
+.img:hover {
+  transform: scale(1.2);
+  border: none;
+}
+
+.rests-2 {
+  display: flex;
+  align-items: center;
+}
+
+.rests-3 {
+  display: flex;
+  align-items: center;
+}
